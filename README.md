@@ -50,6 +50,21 @@ Follow these steps to deploy the media sharing application in your Kubernetes cl
    - Access the React frontend via the NodePort Service endpoint.
    - Interact with the media sharing application to manage media content.
 
-## Monitoring and Management
+## Getting started 
 
-- Monitor application health and performance
+1. **Navigate to directory**:
+
+2. **Start Minikube**:
+      
+   run ```minikube start``` to start the minikube cluster.    
+
+3. **Apply the files to the cluster**:
+   
+   run ```kubectl apply -f .``` to deploy the services. 
+   
+4. **Start the servies**:
+
+   Execute ```minikube service react-service``` to run the react app service.
+
+   Execute ```minikube service web-service``` to run the backend server service.
+   
