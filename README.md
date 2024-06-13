@@ -26,7 +26,7 @@ This repository contains instructions for deploying a media sharing application 
 - **react-service**:
   - Exposes the React frontend to external users via NodePort (`react-service`).
   
-- **web-service**:
+- **nodejs-service**:
   - Backend service supporting media uploads, metadata storage, and retrieval.
   - Exposed via NodePort (`nodejs-service`).
 
